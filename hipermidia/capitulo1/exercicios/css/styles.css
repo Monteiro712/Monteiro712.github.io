@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+main{
+    background-image: url(956b60b91a5ac80a6e2dc4457ab4b07b.jpg);
+}
+article{
+    background-color: cadetblue
+}
+#lorem{
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+#lorem2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#lorem3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#lorem4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
