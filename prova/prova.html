@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <script src="prova.js"></script>
+</head>
+<body>
+    <h1>locação de carros</h1>
+
+    <form action="#" onload="form.form(submit)" id="form">
+    <div>
+        <label for="">nome:</label>
+        <input type="text" id="name">
+    </div>
+    <br>
+    <div>
+        <label for="">numero de telefone:</label>
+        <input type="text" id="tel">
+    </div>
+    <br>
+    <div>
+        <label for="">cidade de retirada</label>
+        <select name="" id="cidade_retirada">
+        <option value="Campos dos Goytacazes-RJ">Campos dos Goytacazes-RJ</option>
+        <option value="Rio de Janeiro-RJ">Rio de Janeiro-RJ</option>
+        <option value="Vitória-ES">Vitória-ES</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <label for="">cidade de entraga</label>
+        <select name="" id="cidade_entrega">
+        <option value="Campos dos Goytacazes-RJ">Campos dos Goytacazes-RJ</option>
+        <option value="Rio de Janeiro-RJ">Rio de Janeiro-RJ</option>
+        <option value="Vitória-ES">Vitória-ES</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        <label for="">data de retirada</label>
+        <input type="date" name="" id="data_entraga">
+    </div>
+    <br>
+    <div>
+        <label for="">data de devolução</label>
+        <input type="date" name="" id="data_devolução">
+    </div>
+    <br>
+    <div>
+        <label for="">tipo de carro</label>
+        <select name="" id="tipo_carro">
+        <option value="basico"> Básico (R$ 119,00)</option>
+        <option value="ar">Básico com Ar (R$ 199,00)</option>
+        <option value="executivo">Executivo(R$ 299,00)</option>
+        </select>
+    </div>
+    <br>
+    <input type="submit" value="calcular valor">
+    <br>
+    </form>
+</body>
+</html>
